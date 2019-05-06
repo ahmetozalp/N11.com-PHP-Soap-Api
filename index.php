@@ -79,7 +79,7 @@
 	var_dump($deleteProductBySeller);
 	
 	//* N11 Sipariş Listesi
-	$OrderList  = $n11->OrderList (
+	$orderList  = $n11->OrderList (
 	[
 		"productId"=>'',
 		"status"=> 'New', 
